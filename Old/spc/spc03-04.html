@@ -1,0 +1,2108 @@
+<html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<title>SPC Full Listing</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body bgcolor="#FFFFFF">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div align="center"> 
+
+  <script language="JavaScript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    bName = navigator.appName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    bVer = parseInt(navigator.appVersion);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ver = "other";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if ((bName == "Netscape" && !(bVer < 3)) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ || (bName == "Microsoft Internet Explorer" && !(bVer < 4))) ver = "good"; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (ver == "good") {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+personnel_off = new Image();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+personnel_off.src = "menu/personnel_off.gif";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+personnel_on = new Image();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+personnel_on.src = "menu/personnel_on.gif";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fullspc_off = new Image();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fullspc_off.src = "menu/fullspc_off.gif";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fullspc_on = new Image();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fullspc_on.src = "menu/fullspc_on.gif";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+roledescrips_off = new Image();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+roledescrips_off.src = "menu/roledescrips_off.gif";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+roledescrips_on = new Image();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+roledescrips_on.src = "menu/roledescrips_on.gif";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+directors_off = new Image();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+directors_off.src = "menu/directors_off.gif";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+directors_on = new Image();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+directors_on.src = "menu/directors_on.gif";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hallheads_off = new Image();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hallheads_off.src = "menu/hallheads_off.gif";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hallheads_on = new Image();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hallheads_on.src = "menu/hallheads_on.gif";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+liaisons_off = new Image();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+liaisons_off.src = "menu/liaisons_off.gif";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+liaisons_on = new Image();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+liaisons_on.src = "menu/liaisons_on.gif";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bookmark_off = new Image();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bookmark_off.src = "menu/bookmark_off.gif";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bookmark_on = new Image();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bookmark_on.src = "menu/bookmark_on.gif";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function image_on(imgName) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        if (ver == "good") {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        document[imgName].src = eval(imgName + "_on.src");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function image_off(imgName) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        if (ver == "good") {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        document[imgName].src = eval(imgName + "_off.src");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <br>
+
+  <a href="../spc.html"><img border="0" src="graphics/title-chart.gif" width="550" height="60" align="middle" alt="SPC Main Page"></a><br>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div align="left">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table width="85%" border="0" cellspacing="4" cellpadding="4" align="center">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <td><div align="center"><font face="Times New Roman"><i><font color="#0B007E">Congratulations 
+
+          to the newly appointed, 2003-2004 K-grams Smile Programming Coucil!</font></i></font></div></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <hr align="center" width="85%">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<p align="center"><b>Click on the <font color="#FF0000">position titles</font><font color="#0000FF"> 
+
+  </font> below to learn about their <font color="#FF0000">role descriptions</font>!<br>
+
+  Click on the <font color="#0000FF">names</font> below to read the SPC <font color="#0000FF">bios</font>!<br>
+
+  <i>Uniqname are provided, too.</i></b></p>-->
+
+<div align="center">
+
+<center>
+
+
+
+    <table border="0" cellpadding="0" cellspacing="0">
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195"> <p align="left"><font face="Times New Roman"><a style="color: #FF0000; text-decoration: none" href="roledescrips.html#d-execdir"><font color="#FF0000" size="2"><b>Executive 
+            Director</b></font></a></font> </td>
+        <td align="left" width="150"> <strong><font face="Times New Roman" size="2">Robin 
+          Stein </font></strong></td>
+        <td align="left" width="80"><strong><em><font size="2" face="Times New Roman">rbstein</font></em></strong></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195"><font size="2" color="#FF0000"><b>Associate 
+          Director</b></font></td>
+        <td align="left" width="150"><strong><font size="2">Amy Crosby</font></strong></td>
+        <td align="left" width="80"><strong><em><font size="2">acrosby</font></em></strong></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> <font size="2" face="Times New Roman" color="#FFFFFF"><a style="text-decoration: none">.</a></font> 
+        </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">&nbsp;</font> </td>
+        <td align="left" width="80">&nbsp;</td>
+      </tr>
+      <tr> 
+        <td align="left" colspan="2"> <font face="Times New Roman"><b>Pen Pals</b> 
+          </font></td>
+        <td align="left" width="150"><font size="2">&nbsp;</font> </td>
+        <td align="left" width="80">&nbsp;</td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195"><font face="Times New Roman" color="#FF0000" size="2"><a style="color: #FF0000; text-decoration: none" href="roledescrips.html#d-letterdir"><b>Pen 
+          Pal Director</b></a></font></td>
+        <td align="left" width="150"> <strong><font face="Times New Roman" size="2">Sarah 
+          Politziner</font></strong></td>
+        <td align="left" width="80"><strong><em><font face="Times New Roman" size="2">spolitzi</font></em></strong></td>
+      </tr>
+      <tr> 
+        <td align="left" valign="top" width="34"></td>
+        <td align="left" valign="top" width="195"><font face="Times New Roman" color="#FF0000" size="2"><a style="color: #FF0000; text-decoration: none" href="roledescrips.html#d-letterdir"><b>Pen 
+          Pal Director</b></a></font><font size="2" color="#FF0000">&nbsp;</font></td>
+        <td align="left" width="150"><strong><font size="2">Lindsay Ford</font></strong></td>
+        <td align="left" width="80"><strong><em><font size="2">llford</font></em></strong></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195"><a style="color: #FF0000; text-decoration: none" href="roledescrips.html#d-letterhead"><font size="2" color="#FF0000">Hall 
+          Heads</font></a></td>
+        <td align="left" valign="top" width="150"><font size="2">Kristen Hewell</font></td>
+        <td align="left" width="80"><em><font size="2">khewell</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Daria Sunday</font></td>
+        <td align="left" width="80"><em><font size="2">dsunday</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Ally Bedoya-Skoog</font></td>
+        <td align="left" width="80"><em><font size="2">akbs</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Val Sunday</font></td>
+        <td align="left" width="80"><em><font size="2">vesunday</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Heather McManus</font></td>
+        <td align="left" width="80"><em><font size="2">hmcmanus</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Kaitlin Murphy</font></td>
+        <td align="left" width="80"><em><font size="2">kaitlina</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Kayla Ellington</font></td>
+        <td align="left" width="80"><em><font size="2">kellingt</font></em></td>
+      </tr>
+      <tr> 
+        <td width="34" align="left"></td>
+        <td width="195" align="left"></td>
+        <td width="150" align="left"><font size="2">Steven Gee</font></td>
+        <td width="80" align="left"><em><font size="2">scgee</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Lindsay Bozicevich</font></td>
+        <td align="left" width="80"><em><font size="2">lbozicev</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Jackie Stevens</font></td>
+        <td align="left" width="80"><em><font size="2">jastevez</font></em></td>
+      </tr>
+      <tr> 
+        <td width="34" align="left" valign="top"></td>
+        <td width="195" align="left" valign="top"></td>
+        <td width="150" align="left"><font size="2">Kavita Padiyar</font></td>
+        <td width="80"><em><font size="2">kpadiyar</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Yuri Kashima</font></td>
+        <td align="left" width="80"><em><font size="2">ykashima</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Shelby Ludtke</font></td>
+        <td align="left" width="80"><em><font size="2">ludtkes</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Alexandra Nickless</font></td>
+        <td align="left" width="80"><em><font size="2">anick</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Alex Eversmeyer</font></td>
+        <td align="left" width="80"><em><font size="2">aeversme</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Brie Statham</font></td>
+        <td align="left" width="80"><em><font size="2">bstatham</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Emily Haffner</font></td>
+        <td align="left" width="80"><em><font size="2">haffnere</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Meredith Chase</font></td>
+        <td align="left" width="80"><em><font size="2">merechas</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" valign="top" colspan="2"></td>
+        <td align="left" valign="top" width="150"><font size="2">&nbsp;</font></td>
+        <td align="left" valign="top" width="80">&nbsp;</td>
+      </tr>
+      <tr> 
+        <td align="left" colspan="2"> <b><font face="Times New Roman">BookMARK 
+          &amp; Schools</font></b></td>
+        <td align="left" width="150"><font size="2">&nbsp;</font> </td>
+        <td align="left" width="80">&nbsp;</td>
+      </tr>
+      <tr> 
+        <td align="left" valign="top" width="34"> </td>
+        <td align="left" valign="top" width="195"><font face="Times New Roman"><a style="color: #FF0000; text-decoration: none" href="roledescrips.html#d-elemdir"><font color="#FF0000" size="2"><b>Elementary 
+          Director</b></font> </a> </font></td>
+        <td align="left" width="150"> <strong><font size="2">Jessika Sorg</font></strong></td>
+        <td align="left" width="80"><strong><em><font size="2">jsorg</font></em></strong></td>
+      </tr>
+      <tr> 
+        <td align="left" valign="top" width="34"></td>
+        <td align="left" valign="top" width="195"><font size="2" color="#FF0000"><b>BookMARK 
+          Director</b></font></td>
+        <td align="left" valign="top" width="150"><strong><font size="2">Andria 
+          Hoffman</font></strong></td>
+        <td align="left" valign="top" width="80"><strong><em><font size="2">andriah</font></em></strong></td>
+      </tr>
+      <tr> 
+        <td align="left" valign="top" width="34"> </td>
+        <td align="left" valign="top" width="195"><a style="color: #FF0000; text-decoration: none" href="roledescrips.html#d-bmkcoord"><font color="#FF0000" size="2">BookMARK 
+          Coordinators</font> </a> </td>
+        <td align="left" valign="top" width="150"><font size="2">Elizabeth Carter-Penney</font></td>
+        <td align="left" valign="top" width="80"><em><font size="2">eccarter</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" valign="top" width="34"> </td>
+        <td align="left" valign="top" width="195"> </td>
+        <td align="left" width="150"><font size="2">Julie Congauton</font></td>
+        <td width="80"><em><font size="2">juliemc</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" valign="top" width="34"> </td>
+        <td align="left" valign="top" width="195"> </td>
+        <td align="left" width="150"><font size="2">Lynne Gratz</font></td>
+        <td width="80"><em><font size="2">lgratz</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" valign="top" width="34"> </td>
+        <td align="left" valign="top" width="195"> </td>
+        <td align="left" width="150"><font size="2">David Hoffman</font></td>
+        <td width="80"><em><font size="2">djhoffma</font></em></td>
+      </tr>
+      <tr> 
+        <td width="34" align="left" valign="top"></td>
+        <td width="195" align="left" valign="top"></td>
+        <td width="150" align="left"><font size="2">Chris Hogan</font></td>
+        <td width="80"><em><font size="2">cshogan</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" valign="top"></td>
+        <td align="left" valign="top"></td>
+        <td align="left"><font size="2">Julie Horowitz</font></td>
+        <td><font size="2"><em>jahorowi</em></font></td>
+      </tr>
+      <tr> 
+        <td align="left" valign="top" width="34"> </td>
+        <td align="left" valign="top" width="195"> </td>
+        <td align="left" width="150"><font size="2">Arianne Kindle</font></td>
+        <td width="80"><em><font size="2">akindle</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" valign="top" width="34"> </td>
+        <td align="left" valign="top" width="195"> </td>
+        <td align="left" width="150"><font size="2">Karen Kotzan</font></td>
+        <td width="80"><em><font size="2">kkotzan</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" valign="top" width="34"></td>
+        <td align="left" valign="top" width="195"></td>
+        <td align="left" width="150"><font size="2">David Peckerman</font></td>
+        <td width="80"><em><font size="2">dpeckerma</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" valign="top" width="34"></td>
+        <td align="left" valign="top" width="195"></td>
+        <td align="left" width="150"><font size="2">Ben Pearlman</font></td>
+        <td width="80"><em><font size="2">bpearlma</font></em></td>
+      </tr>
+      <tr> 
+        <td width="34" align="left"> </td>
+        <td width="195" align="left"> </td>
+        <td width="150" align="left"><font size="2">Shadi Roshandel</font></td>
+        <td width="80" align="left"><em><font size="2">sroshand</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" valign="top" width="34"></td>
+        <td align="left" valign="top" width="195"></td>
+        <td align="left" width="150"><font size="2">Michelle Sweet</font></td>
+        <td width="80"><em><font size="2">sweetm</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" valign="top" colspan="2">&nbsp;</td>
+        <td align="left" width="150"><font size="2">&nbsp;</font></td>
+        <td width="80">&nbsp;</td>
+      </tr>
+      <tr> 
+        <td align="left" valign="top" colspan="2"> <font face="Times New Roman"><b>Kids-Fair</b> 
+          </font></td>
+        <td align="left" width="150"><font size="2">&nbsp;</font></td>
+        <td width="80">&nbsp;</td>
+      </tr>
+      <tr> 
+        <td align="left" valign="top" width="34"> </td>
+        <td align="left" valign="top" width="195"> <p align="left"><font size="2" face="Times New Roman" color="#FF0000"><b>Kids-Fair 
+            Director</b> </font><font size="2" face="Times New Roman">&nbsp;&nbsp;</font> 
+        </td>
+        <td align="left" width="150"> <strong><font face="Times New Roman" size="2">Christy 
+          Bergeon </font></strong></td>
+        <td width="80"><strong><em><font size="2">cbergeon</font></em></strong></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195"><font face="Times New Roman" color="#FF0000" size="2"><a style="color: #FF0000; text-decoration: none" href="roledescrips.html#d-groupdir" name="group-dir"><b>Student 
+          Group Director</b><br>
+          </a></font></td>
+        <td align="left" width="150"><strong><font size="2">Lystra Hayden</font></strong></td>
+        <td width="80"><strong><em><font size="2">lphayden</font></em></strong></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195"><a style="color: #FF0000; text-decoration: none" href="roledescrips.html#d-liaisons"><font color="#FF0000" size="2">Student 
+          Group Liaisons</font></a></td>
+        <td align="left" width="150"><font size="2">Camille Boykins</font></td>
+        <td width="80"><em><font size="2">cboykins</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Jenn Carter</font></td>
+        <td width="80"><em><font size="2">jncarter</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Alison Elafros</font></td>
+        <td width="80"><em><font size="2">aelafros</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Stephanie Feeney</font></td>
+        <td width="80"><em><font size="2">sfeeney</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Lisa Lu</font></td>
+        <td width="80"><em><font size="2">lxl</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Kate Mann</font></td>
+        <td width="80"><em><font size="2">katkman</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Jessica McPherson</font></td>
+        <td width="80"><em><font size="2">jmcphers</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Stephanie Packer</font></td>
+        <td width="80"><em><font size="2">stephpac</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Miyako Tomimasu</font></td>
+        <td width="80"><em><font size="2">miyako</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> </td>
+        <td align="left" width="150"><font size="2">Elizabeth Tyzo</font></td>
+        <td width="80"><em><font size="2">etyzo</font></em></td>
+      </tr>
+      <tr> 
+        <td width="34" align="left"></td>
+        <td width="195" align="left"></td>
+        <td width="150" align="left"><font size="2">Maureen Wimsatt</font></td>
+        <td width="80"><em><font size="2">wimsattm</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" colspan="2">&nbsp;</td>
+        <td align="left" width="150"><font size="2">&nbsp;</font></td>
+        <td width="80">&nbsp;</td>
+      </tr>
+      <tr> 
+        <td align="left" colspan="2"> <font face="Times New Roman"><b>Internal</b> 
+          </font></td>
+        <td align="left" width="150"><font size="2">&nbsp;</font></td>
+        <td width="80">&nbsp;</td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195"><font size="2" face="Times New Roman"> <a style="color: #FF0000; text-decoration: none" href="roledescrips.html#d-commdir" name="comm-dir"> 
+          <font color="#FF0000"> <b>Communications Director</b></font> </a> &nbsp;</font></td>
+        <td align="left" width="150"><strong><font face="Times New Roman" size="2">Larissa 
+          Galan </font></strong></td>
+        <td width="80"><strong><em><font size="2">lgalan</font></em></strong></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195"><font face="Times New Roman" color="#FF0000" size="2"><a style="color: #FF0000; text-decoration: none" href="roledescrips.html#d-prchair" name="pr-chair">PR 
+          Chair</a></font></td>
+        <td align="left" width="150"><font size="2">Rimi Saha</font></td>
+        <td width="80"><em><font size="2">sahaa</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195"><font face="Times New Roman" color="#FF0000" size="2"><a style="color: #FF0000; text-decoration: none" href="roledescrips.html#d-prcomm">PR 
+          Committee</a></font></td>
+        <td align="left" width="150"><font size="2">Casey Haapaniemi</font></td>
+        <td width="80"><em><font size="2">chaap</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195"><font size="2" face="Times New Roman">&nbsp;</font></td>
+        <td align="left" width="150"><font size="2">Tal Halpern</font></td>
+        <td width="80"><em><font size="2">thalpern</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195"><font size="2" face="Times New Roman">&nbsp;</font></td>
+        <td align="left" width="150"><font size="2">Nicole Johnson</font></td>
+        <td width="80"><em><font size="2">nrjohnso</font></em></td>
+      </tr>
+      <tr> 
+        <td width="34" align="left"></td>
+        <td width="195" align="left">&nbsp;</td>
+        <td width="150" align="left"><font size="2">Alison Kempa</font></td>
+        <td width="80"><em><font size="2">akempa</font></em></td>
+      </tr>
+      <tr> 
+        <td width="34" align="left"></td>
+        <td width="195" align="left">&nbsp;</td>
+        <td width="150" align="left"><font size="2">Jodi Kirsch</font></td>
+        <td width="80"> <p><em><font size="2">jkirsch</font></em></p></td>
+      </tr>
+      <tr> 
+        <td width="34" align="left"></td>
+        <td width="195" align="left">&nbsp;</td>
+        <td width="150" align="left"><font size="2">Megan Melvin</font></td>
+        <td width="80"><em><font size="2">melvinm</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195"></td>
+        <td align="left" width="150"><font size="2">&nbsp;</font></td>
+        <td width="80">&nbsp;</td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195"><font size="2" face="Times New Roman"><a style="color: #FF0000; text-decoration: none" href="roledescrips.html#d-webteam" name="webteam"><font color="#FF0000">Web 
+          Team</font> </a> &nbsp;</font></td>
+        <td align="left" width="150"><font size="2">Jason Beyer</font></td>
+        <td width="80"><em><font size="2">jrbeyer</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"><font face="Times New Roman"><a style="color: #FF0000; text-decoration: none" href="roledescrips.html#d-pubschair"><font color="#FF0000" size="2">Publications 
+          Chair</font> </a> </font></td>
+        <td align="left" width="150"><font size="2">Gretchen Gooding</font></td>
+        <td width="80"><em><font size="2">ggooding</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195"><font size="2" color="#FF0000">Publications 
+          Committee</font></td>
+        <td align="left" width="150"><font size="2">Leslie Chan</font></td>
+        <td width="80"><em><font size="2">llchen</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195">&nbsp;</td>
+        <td align="left" width="150"><font size="2">&nbsp;</font></td>
+        <td width="80">&nbsp;</td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195"><font size="2" face="Times New Roman"><a style="color: #FF0000; text-decoration: none" href="roledescrips.html#d-opsdir"><font color="#FF0000"><b>Operations 
+          Director</b></font> </a> &nbsp;</font></td>
+        <td align="left" width="150"><strong><font size="2">Alicia Brown</font></strong></td>
+        <td width="80"><strong><em><font size="2">ajbrown</font></em></strong></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195"><font size="2" face="Times New Roman"><a style="color: #FF0000; text-decoration: none" href="roledescrips.html#d-databasechair"><font color="#FF0000">Finance 
+          Chair</font> </a> &nbsp;</font></td>
+        <td align="left" width="150"><font size="2">Amy Greenfield</font></td>
+        <td width="80"><em><font size="2">greenfie</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195"><font face="Times New Roman" color="#FF0000" size="2"><a style="color: #FF0000; text-decoration: none" href="roledescrips.html#fincomm">Finance 
+          Committee</a></font></td>
+        <td align="left" width="150"><font size="2">Alexander Phung</font></td>
+        <td width="80"><em><font size="2">phung</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195"><font size="2" face="Times New Roman">&nbsp;</font></td>
+        <td width="150"><font size="2">Jon Plichta</font></td>
+        <td width="80"><em><font size="2">plichtaj</font></em></td>
+      </tr>
+      <tr> 
+        <td width="34" align="left"></td>
+        <td width="195" align="left">&nbsp;</td>
+        <td width="150"><font size="2">Stefanie Stachura</font></td>
+        <td width="80"><em><font size="2">sstachur</font></em></td>
+      </tr>
+      <tr> 
+        <td width="34" align="left"></td>
+        <td width="195" align="left">&nbsp;</td>
+        <td width="150"><font size="2">&nbsp;</font></td>
+        <td width="80">&nbsp;</td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195"><font size="2" color="#FF0000">Historian 
+          Chair</font></td>
+        <td width="150"><font size="2">Molly O'Malley</font></td>
+        <td width="80"><em><font size="2">mjomal</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195"><font size="2" color="#FF0000">Historian 
+          Committee</font></td>
+        <td width="150"><font size="2">Lori Fox</font></td>
+        <td width="80"><em><font size="2">lsfox</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195"><font size="2" color="#FF0000">Operations 
+          &amp; Events Chair</font></td>
+        <td width="150"><font size="2">Nazemma Ali</font></td>
+        <td width="80"><em><font size="2">balli</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"></td>
+        <td align="left" width="195"><font size="2" color="#FF0000">Ops &amp; 
+          Events Committee</font></td>
+        <td width="150"><font size="2">Shahrun Sofian</font></td>
+        <td width="80"><em><font size="2">ssofian</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> <font size="2" color="#FFFFFF" face="Times New Roman">.</font></td>
+        <td align="left" width="195"> </td>
+        <td width="150"><font size="2">&nbsp;</font></td>
+        <td width="80">&nbsp;</td>
+      </tr>
+      <tr> 
+        <td align="left" colspan="2"> <font face="Times New Roman"><b>Advising</b></font></td>
+        <td width="150"><font size="2">&nbsp;</font></td>
+        <td width="80">&nbsp;</td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" width="195"> <font color="#FF0000" size="2" face="Times New Roman">Advisor, 
+          KgI<br>
+          President, KgI</font></td>
+        <td valign="top" width="150"><font size="2" face="Times New Roman">Lee 
+          Ann Benkert<br>
+          Rishi Moudgil</font></td>
+        <td width="80"><em><font size="2" face="Times New Roman">benkertl<br>
+          rmoudgil</font></em></td>
+      </tr>
+      <tr> 
+        <td align="left" width="34"> </td>
+        <td align="left" valign="top" width="195"> <font size="2" color="#FF0000" face="Times New Roman">Advisor, 
+          UofM Housing</font></td>
+        <td valign="top" width="150"><font size="2" face="Times New Roman">Randi 
+          Johnson<br>
+          </font></td>
+        <td width="80">&nbsp;</td>
+      </tr>
+    </table>
+
+
+
+  </center>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p></p><p></p>
+
+
+
+
+
+
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+
+
+
+
+
+
+
+  <tr>
+
+
+
+
+
+
+
+    <td width="100%">
+
+
+
+
+
+
+
+      <hr width="50%">
+
+
+
+
+
+
+
+    </td>
+
+
+
+
+
+
+
+  </tr>
+
+
+
+
+
+
+
+  <tr>
+
+
+
+
+
+
+
+    <td width="100%" align="center"><font size="-1"><a href="http://www.umich.edu/~smile/about.html">About
+
+
+
+
+
+
+
+      K-grams</a> | <a href="http://www.umich.edu/~smile/penpals.html">Pen Pal
+
+
+
+
+
+
+
+      &amp; Swing Kid Info</a> | <a href="http://www.umich.edu/~smile/hallschool.html">Halls
+
+
+
+
+
+
+
+      &amp; Schools</a> | <a href="http://www.umich.edu/~smile/kidsfair.html">Kids-Fair</a>
+
+
+
+
+
+
+
+      | <a href="http://www.umich.edu/~smile/bookmark.html">BookMARK</a> | <a href="http://www.umich.edu/~smile/programs.html">Special
+
+
+
+
+
+
+
+      Programs</a> | <a href="http://www.umich.edu/~smile/spc.html">SmilePC</a>
+
+
+
+
+
+
+
+      | <a href="http://www.umich.edu/~smile/cgi-data/guestbook.html">Guestbook</a><br>
+
+
+
+
+
+
+
+      <br>
+
+
+
+
+
+
+
+      <br>
+
+
+
+
+
+
+
+      Comments about this webpage can be directed to our webmasters (<a href="mailto:smileweb@umich.edu">smileweb@umich.edu</a>)<br>
+
+
+
+
+
+
+
+      All other comments or questions can be sent to <a href="../contact.html">smile@umich.edu</a></font></td>
+
+
+
+
+
+
+
+  </tr>
+
+
+
+
+
+
+
+</table>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>

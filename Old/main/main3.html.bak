@@ -1,0 +1,667 @@
+<html>
+
+
+
+<head>
+
+
+<meta name="DESCRIPTION"
+
+content="K-grams (short for 'Kids Programs') is an exciting program open for ANYONE at the University of Michigan.">
+
+<meta name="KEYWORDS"
+
+content="pen pals, The University of Michigan, elementary schools, Ann Arbor, Ann Arbor Public Schools, letters, community service">
+
+<meta name="AUTHORS" content="smile webmasters">
+
+
+<title>K-grams pen pals!</title>
+
+</head>
+
+
+
+<body bgcolor="#FFFFFF" onLoad="startCountdown()">
+
+<script language="JavaScript1.2">
+
+
+<!--
+
+    bName = navigator.appName;
+
+    bVer = parseInt(navigator.appVersion);
+
+    ver = "other";
+
+if ((bName == "Netscape" && !(bVer < 100)) 
+
+ || (bName == "Microsoft Internet Explorer" && !(bVer < 4))) ver = "good"; 
+
+
+
+if (ver == "good") {
+
+
+
+var brOK=false, mie=false;
+
+if(document.layers || document.all) brOK=true;
+
+if(document.all) mie=true;
+
+var ex=0, ey=0;
+
+var ae, le, re, x0, y0, tid, realx, realy;
+
+
+
+
+
+function navMove(e) {
+
+ ex=e.pageX; 
+
+ ey=e.pageY;
+
+ moveeye()
+
+ return routeEvent(e);
+
+ }
+
+
+
+function mieMove() {
+
+ ex=document.body.scrollLeft+event.x;
+
+ ey=document.body.scrollTop+event.y;
+
+ moveeye();
+
+ }
+
+
+
+function moveeye() {
+
+ dy=ey-y0-20;
+
+ dx1=ex-x0-20;
+
+ dx2=ex-x0-60;
+
+
+
+ r=Math.sqrt(dx1*dx1+dy*dy);
+
+ if(r<20) r=20
+
+ dx1=dx1*10/r+x0+10;
+
+ dy1=dy*10/r+y0+10;
+
+ r=Math.sqrt(dx2*dx2+dy*dy);
+
+ if(r<20) r=20
+
+ dx2=dx2*10/r+x0+50;
+
+
+
+ ae.left=x0;  
+
+ ae.top=y0;  
+
+ le.left=dx1;  
+
+ le.top=dy1;  
+
+ re.left=dx2;  
+
+ re.top=dy1;  
+
+ }
+
+
+
+function setHandlers() {
+
+ if(!mie){
+
+  y0=document.eyeballs.top;
+
+  x0=document.eyeballs.left;
+
+  ae=document.eyeballs;
+
+  le=document.lefteye;   
+
+  re=document.righteye;   
+
+  window.captureEvents(Event.MOUSEMOVE);
+
+  window.onMouseMove=navMove;
+
+  } else {
+
+  y0=document.all.eyeballs.style.pixelTop;
+
+  x0=document.all.eyeballs.style.pixelLeft;
+
+  ae=document.all.eyeballs.style;
+
+  le=document.all.lefteye.style;
+
+  re=document.all.righteye.style;
+
+  window.document.onmousemove=mieMove;
+
+  }
+
+ realx=x0+0.1;
+
+ realy=y0+0.1;
+
+ moveall();
+
+ }
+
+function moveall() {
+
+ rx=realx+40
+
+ ry=realy+40;
+
+ rx+=(ex-rx)*0.1;
+
+ ry+=(ey-ry)*0.1;
+
+ realx=rx-40;
+
+ realy=ry-40;
+
+ x0=Math.round(realx);
+
+ y0=Math.round(realy);
+
+ moveeye();
+
+ tid=setTimeout('moveall()',100);
+
+ }
+
+
+
+function placeeyes(x,y) {
+
+ if(brOK) {
+
+  ex=x+40;
+
+  ey=y+40;
+
+  s ='<DIV ID="dummy"    STYLE="position:absolute; top:'+y+'; left:'+x+'; width:10; height:10;">&nbsp;</DIV>';
+
+  s+='<DIV ID="eyeballs" STYLE="position:absolute; top:'+y+'; left:'+x+'; width:80; height:40;"  ><IMG SRC="smilefollow.gif"  border=0></DIV>';
+
+  s+='<DIV ID="lefteye"  STYLE="position:absolute; top:'+(y+10)+'; left:'+(x+10)+'; width:20; height:20;"  ><IMG SRC="space.gif"       border=0></DIV>';
+
+  s+='<DIV ID="righteye" STYLE="position:absolute; top:'+(y+10)+'; left:'+(x+50)+'; width:20; height:20;"  ><IMG SRC="space.gif"       border=0></DIV>';
+
+  document.writeln(s);
+
+  }
+
+ }
+
+
+
+function clearEyes() {
+
+ if(tid) clearTimeout(tid);
+
+ }
+
+placeeyes(200,100);
+
+window.onload=setHandlers;
+
+window.onunload=clearEyes;
+
+        }
+
+//-->
+
+
+
+
+</script>
+
+
+
+<table border="0" cellpadding="7" cellspacing="7">
+
+    <tr>
+
+        <td valign="top"><p align="center"><a href="sitemap.html"><img
+
+        src="main/logocolor.gif" alt="K-grams!" border="0" width="246" height="142"></a><br>
+
+        </p>
+
+         <div align="center">
+          <center>
+          <table border="0" cellspacing="0" cellpadding="0">
+           <tr>
+            <td>
+
+         <img border="0" src="main/countdown.gif" width="272" height="46"></td>
+           </tr>
+           <tr>
+            <td>
+             <div align="center">
+              <center>
+             <table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+               <td><center>
+
+ </center> 
+
+ </center> 
+
+<font color="BLACK" font face="haettenschweiler">
+
+<TABLE ALIGN="CENTER" CELLSPACING=1 CELLPADDING=0 BORDER=0>
+
+<TR>
+
+<FORM>
+
+<TD ALIGN="center"  VALIGN="TOP"> <INPUT TYPE="text" NAME="dayResult"  SIZE="2" >
+</font><font face="CafeteriaBold" color="#FF0000" font size="4"><B>DAYS,<I>&nbsp;</I></B>
+
+</font>
+
+<font color="BLACK" font face="haettenschweiler">
+
+ &nbsp;</font>
+
+<TD ALIGN="center"  VALIGN="TOP"> <INPUT TYPE="text" NAME="hourResult" SIZE="2">
+ <B><font color="#FF0000" face="CafeteriaBold" font size="4">HOURS,</font><font face="CafeteriaBold"><I>&nbsp;</I></font></B>
+
+<font color="BLACK" font face="haettenschweiler">
+
+ </font>
+
+<TD ALIGN="center"  VALIGN="TOP"> <INPUT TYPE="text" NAME="minResult"  SIZE="2" >
+ <font face="CafeteriaBold" color="#FF0000" font size="4"><B>MINUTES!!</B>
+
+
+
+ </font>
+
+
+
+<font color="BLACK" font face="haettenschweiler">
+
+<font color="#FF0000">
+
+
+
+ </font>
+
+
+
+</FORM>
+
+ </font>
+
+</TR>
+
+</TABLE>
+
+<Script language="Javascript">
+
+
+var timerID = null;
+var timerRunning = false;
+
+//Countdown to Kids-Fair 2000 March 17, 9:00 AM
+
+function go()
+{
+  var now   = new Date();
+  var month = now.getMonth();
+  var day   = now.getDate();
+
+  var hour  = now.getHours();
+  var min   = now.getMinutes();
+  var sec   = now.getSeconds();
+
+  var day_diff;
+  var hour_diff;
+  var min_diff;
+  var sec_diff=60-sec;
+
+//Check if its after or before 00 minutes and save before or after
+
+  if ((min-00) == 0)
+         {  
+          min_diff = 0;
+      when_min = "before_min";
+         }
+
+  else
+
+     {
+      min_diff = (60-min);
+          when_min = "after_min";
+     }
+
+//Check if its after or before 9:00am and save before or after
+
+  if ((hour-9) < 0 && when_min=="before_min")    // before 9, before 00
+
+         {
+         hour_diff = 9-hour;
+         when_hour = "before_hour";
+         }
+
+  else if ((hour-9) < 0 && when_min=="after_min")   // before 9, after 00
+
+         { 
+         hour_diff = (9-hour)-1;
+         when_hour = "before_hour";
+         }
+
+  else if ((hour-9) > 0 && when_min=="after_min")  // after 9, after 00
+
+         {
+         hour_diff = (24-hour)+9;
+         when_hour = "after_hour";
+         }
+
+  else if ((hour-9) > 0 && when_min=="before_min")  //after 9, before 00
+
+         {
+         hour_diff = 24-hour;
+         when_hour = "after_hour";
+         }
+
+  else if ((hour-9) == 0 && when_min=="before_min")     // exactly 9, before 00
+
+         {
+         hour_diff = 0;
+         when_hour = "before_hour";
+         } 
+
+  else if ((hour-9) ==0 && when_min=="after_min")      // exactly 9, after 00
+
+         {
+         hour_diff = (24-hour)-1;
+         when_hour = "after_hour";
+         }
+
+  day_diff=17-day;
+
+//if after 9:00am, subtract 1 from day 
+
+  if(when_hour=="after_hour")
+     day_diff=day_diff-1;
+
+    document.forms[0].dayResult.value  = day_diff;
+    document.forms[0].hourResult.value = hour_diff;
+    document.forms[0].minResult.value  = min_diff; 
+   timerID = setTimeout("go()",1000);
+}
+
+// Called by onLoad in body tag and Start Countdown button.
+function startCountdown() 
+
+   { 
+   go();
+   timerRunning = true;
+   }
+
+// Called by onUnload in body tag and Stop Countdown button.
+function stopCountdown()
+
+   {
+   if(timerRunning)
+      clearTimeout(timerID);
+   timerRunning = false;
+   }
+
+</script> 
+
+
+
+</td>
+              </tr>
+             </table>
+             </div>
+            </td>
+           </tr>
+          </table>
+         </div>
+
+         </center>
+
+         <p align="left">Guess what is just around the corner?? MONKEYS! Ehhh,
+         I&nbsp; mean <a
+
+        href="kidsfair.html">Kids-Fair 2000!</a>&nbsp; You've been hearing a lot
+         about it, and now is the time to get excited for old and young kids
+         alike. Kids-Fair is a unique event that brings together all our
+         schools, kids, many student groups, and the community for a day of
+         sharing and learning.&nbsp; Not to mention that there will be a lot of
+         fun, prizes, and guest appearances!
+
+        </p>
+
+         <p align="center"><a href="kidsfair/buddy.html"><img border="0" src="main/buddies.gif" width="240" height="145"></a>
+
+        </p>
+
+        <p align="left">Right now we need you to sign-up as a <a href="kidsfair/buddy.html">Kids-Fair
+         Buddy</a>! ANYONE CAN BE A BUDDY!&nbsp; PLEASE sign-up yourself and any
+        friends for any amount of time.&nbsp; It's worth it!</p>
+
+        <p align="left">After touring through our site, please sign our <a href="cgi-data/guestbook.html">Guestbook</a>
+
+        to tell us what you think about our program.&nbsp; We look forward to
+        seeing you soon at the Kids-Fair 2000!</p>
+
+        <p align="left"><br>
+
+        -Rishi, Lee, and E<br>
+
+        A few of the behind-the-scenes types</p>
+
+          <center>
+
+        <p align="center"><br>
+
+        <font size="2">K-grams is partnered with </font><a
+
+        href="http://www.umich.edu/~circlek" target="new"><font
+
+        size="2">The University of Michigan Circle K</font></a><font
+
+        size="2"> and </font><a
+
+        href="http://www.housing.umich.edu" target="new"><font
+
+        size="2">The University of Michigan Department of Housing</font></a><font
+
+        size="2">.</font> </p>
+
+         <p align="center"><br>
+
+        <br>
+
+        <img
+
+        src="http://wwwcgi.itd.umich.edu/cgi-bin/counter?link=http://www.umich.edu/~smile/index.html">
+
+        <font size="2">people have been smiling since September
+
+        28th, 1998.</font> <br>
+
+        <br>
+
+        <font size="2">This page was last updated on <i>February 29, 2000<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (that was the first leap day of the
+        2000s)</i></font> </p>
+
+         <p align="center">
+
+        <font size="2"> <i><br>
+        <img border="0" src="main/blockm.gif" width="65" height="49"><br>
+        go blue&nbsp;</i></font> </p>
+
+         </center>
+
+        </td>
+
+        <td valign="top" width="200"><br>
+
+        <br>
+
+        <a href="main/tshirts.html"><img src="main/buytshirt.gif"
+
+        alt="Buy a t-shirt!" border="0" width="202" height="46"></a><br>
+
+        <a href="main/tshirts.html"><img
+
+        src="main/2000tshirtfront.gif" alt="K-grams!" border="0"
+
+        width="193" height="184"></a><br>
+
+         <br>
+         <a target="as" href="games"><img border="0" src="main/javakgames.gif" width="190" height="46"></a>
+         <p><a href="volunteer/chart.html"><img border="0" src="main/applynextyear.gif" width="192" height="46"></a><br>
+
+        <strong><br>
+        &nbsp;&nbsp;&nbsp; Click </strong><a href="penpals/schedule.html"><strong>here</strong></a><strong>
+
+        for the current<br>
+        &nbsp;&nbsp;&nbsp; 1999-2000 letter schedule</strong><br>
+
+        <br>
+
+         <img src="contact/email.gif" alt="Send us email!" width="152" height="46"> 
+
+         </p>
+
+        <form action="/cgi-bin/htmail/smile@umich.edu"
+
+        method="POST">
+
+            <p align="center"><textarea name="S1" rows="4"
+
+            cols="20"></textarea><br>
+
+            Your e-mail address:<br>
+
+            <input type="text" size="18" name="from"> <br>
+
+            <input type="submit" name="B1"
+
+            value="Send a nice note!"></p>
+
+            <p align="center">&nbsp;</p>
+
+        </form>
+
+        <table border="1">
+
+            <tr>
+
+                <td align="center" bgcolor="#E6E5F2"><form
+
+                action="/cgi-bin/swishgate/~smile/penpals/.index.swish"
+
+                method="POST">
+
+                    <p><font color="#0B007E" size="4"
+
+                    face="Comic Sans MS">Search this site for pen
+
+                    pal info!</font><br>
+
+                    <font color="#0B007E" face="Comic Sans MS">Simply
+
+                    enter your name in the box below:</font> <br>
+
+                    <br>
+
+                    <input type="text" size="20" name="search"><br>
+
+                    <br>
+
+                    <input type="submit" name="Submit Search!"> </p>
+
+                </form>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+        <p><br>
+
+        </p>
+
+        </td>
+
+    </tr>
+
+</table>
+
+
+
+<p align="center"><br>
+
+<br>
+
+<a href="about.html"><font size="2">[About K-grams]</font></a><font
+
+size="2"> | </font><a href="penpals.html"><font size="2">[Stuff
+
+for Pen Pals]</font></a><font size="2"> | </font><a
+
+href="hallschool.html"><font size="2">[Participating Halls &amp;
+
+Schools]</font></a><font size="2"> | </font><a
+
+href="kidsfair.html"><font size="2">[Kids-Fair]</font></a><font
+
+size="2"> | </font><a href="volunteers.html"><font size="2">[Volunteers]</font></a><font
+
+size="2"> | </font><a href="programs.html"><font size="2">[Special
+
+Programs]</font></a><font size="2"> <br>
+
+<br>
+
+Comments about this site can be directed to our webmasters (</font><a
+
+href="mailto:smileweb@umich.edu"><font size="2">smileweb@umich.edu</font></a><font
+
+size="2">) <br>
+
+All other comments or questions can be sent to </font><a
+
+href="contact/inquery.html"><font size="2">smile@umich.edu</font></a>
+
+</p>
+
+</body>
+
+</html>
+

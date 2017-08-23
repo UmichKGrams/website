@@ -1,0 +1,163 @@
+<html>
+<head>
+<title>What is the SPC?</title>
+</head>
+<script language="JavaScript">
+    bName = navigator.appName;
+    bVer = parseInt(navigator.appVersion);
+    ver = "other";
+
+if ((bName == "Netscape" && !(bVer < 3)) 
+ || (bName == "Microsoft Internet Explorer" && !(bVer < 4))) ver = "good"; 
+if (ver == "good") {
+
+personnel_off = new Image();
+personnel_off.src = "menu/personnel_off.gif";
+personnel_on = new Image();
+personnel_on.src = "menu/personnel_on.gif";
+
+fullspc_off = new Image();
+fullspc_off.src = "menu/fullspc_off.gif";
+fullspc_on = new Image();
+fullspc_on.src = "menu/fullspc_on.gif";
+
+roledescrips_off = new Image();
+roledescrips_off.src = "menu/roledescrips_off.gif";
+roledescrips_on = new Image();
+roledescrips_on.src = "menu/roledescrips_on.gif";
+
+directors_off = new Image();
+directors_off.src = "menu/directors_off.gif";
+directors_on = new Image();
+directors_on.src = "menu/directors_on.gif";
+
+hallheads_off = new Image();
+hallheads_off.src = "menu/hallheads_off.gif";
+hallheads_on = new Image();
+hallheads_on.src = "menu/hallheads_on.gif";
+
+liaisons_off = new Image();
+liaisons_off.src = "menu/liaisons_off.gif";
+liaisons_on = new Image();
+liaisons_on.src = "menu/liaisons_on.gif";
+
+bookmark_off = new Image();
+bookmark_off.src = "menu/bookmark_off.gif";
+bookmark_on = new Image();
+bookmark_on.src = "menu/bookmark_on.gif";
+
+        }
+
+
+
+function image_on(imgName) {
+        if (ver == "good") {
+        document[imgName].src = eval(imgName + "_on.src");
+
+        }
+
+}
+
+function image_off(imgName) {
+        if (ver == "good") {
+        document[imgName].src = eval(imgName + "_off.src");
+
+        }
+
+}
+
+</script>
+
+<body bgcolor="#ffffff">
+<div align="center"><br>
+  <a href="../spc.html"><img border="0" src="graphics/title-chart.gif" alt="SPC Main Page"></a> 
+</div>
+<table border="0" cellpadding="0" cellspacing="0" align="center">
+  <tr> 
+        <td valign="bottom" align="center"> 
+        <a href="personnelchart.html" onMouseOver="image_on('personnel'); self.status='K-grams Personnel Chart'; return true" onMouseOut="image_off('personnel'); self.status=' '; return true"> 
+          <img src="menu/personnel_off.gif" border=0 name="personnel" alt="SPC Personnel Chart"></a>
+          <a href="fulllisting.html" onMouseOver="image_on('fullspc'); self.status='Full SPC List'; return true" onMouseOut="image_off('fullspc'); self.status=' '; return true">
+          <img src="menu/fullspc_off.gif" border=0 name="fullspc" alt="Full listing of SPC members"></a> 
+          <a href="roledescrips.html" onMouseOver="image_on('roledescrips'); self.status='Brief Role Descriptions'; return true" onMouseOut="image_off('roledescrips'); self.status=' '; return true">
+          <img src="menu/roledescrips_off.gif" border=0 name="roledescrips" alt="SPC Role Descriptions"></a> 
+         <a href="meetspc.html" onMouseOver="image_on('directors'); self.status='Meet the Directors and Committees'; return true" onMouseOut="image_off('directors'); self.status=' '; return true"><br>
+      <img src="menu/directors_off.gif" border=0 name="directors" alt="Meet the SPC Directors &amp; Committees"></a> 
+      <a href="meetheads.html" onMouseOver="image_on('hallheads'); self.status='Meet the Hall Heads'; return true" onMouseOut="image_off('hallheads'); self.status=' '; return true"> 
+      <img src="menu/hallheads_off.gif" border=0 name="hallheads" alt="Meet the SPC Hall Heads"></a> 
+      <a href="meetoutreach.html" onMouseOver="image_on('liaisons'); self.status='Meet the Liaisons'; return true" onMouseOut="image_off('liaisons'); self.status=' '; return true"> 
+      <img src="menu/liaisons_off.gif" border=0 name="liaisons" alt="Meet the SPC Student Group Liaisons"></a> 
+      <a href="meetcoordinators.html" onMouseOver="image_on('bookmark'); self.status='Meet the BookMARK Coordinators'; return true" onMouseOut="image_off('bookmark'); self.status=' '; return true"> 
+      <img src="menu/bookmark_off.gif" border=0 name="bookmark" alt="Meet the SPC BookMARK Coordinators"></a></td>
+      </tr>
+    </table>
+    <br>
+
+<table width="85%" border="0" cellspacing="4" cellpadding="4" align="center">
+  <tr>
+    <td>
+      <p><font color="#0B007E" face="Times New Roman"><i>The 60 members Smile
+      Programming Council (SPC) is the main programming board of K-grams.&nbsp;
+      Together this group of fine directors, Chairs and Committees, Hall Heads,
+      and BookMARK Coordinators put together all of the fun and educational
+      programs that are a part of K-grams.&nbsp; The SPC is composed entirely of
+      students, and offers all students an opportunity to get more involved with
+      this great program!</i></font></p>
+    </td>
+  </tr>
+</table>
+<hr align="center" width="85%">
+<p>
+<blockquote>All of our K-grams programs are run and supported by a student-run programming
+board, the K-grams Smile Programming Council (SPC).&nbsp; The SPC encompasses
+over 20 separate roles and 60 members from all areas of campus. Roles range from
+working directly with the elementary schools and teachers to making newsletters,
+designing the website, and raising funds. There are all sorts of opportunities!</p>
+
+  <p>If you are interested in getting more involved with K-grams, you might consider 
+    joining the Programming Council.&nbsp; Applications are made available and 
+    then collected during the winter term.&nbsp; Make sure to check out the role 
+    descriptions to find out what role might fit you.&nbsp; You may also want 
+    to talk to <a href="meetspc.html">current SPC members</a> to get a feel of 
+    what certain roles entail and what the SPC is like.&nbsp; All applicants must 
+    submit an application by assigned due date and then must partake in a short 
+    interview.</p>
+</blockquote>
+<p>&nbsp;</p>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="3" cellspacing="0">
+    <tr>
+      <td><img src="../about/pictures/01spc.jpg"></td>
+      <td><img src="../about/pictures/rock.jpg"></td>
+      <td><img src="../about/pictures/spc99.jpg"></td>
+    </tr>
+  </table>
+  </center>
+</div>
+<p></p><p></p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%">
+      <hr width="50%">
+    </td>
+  </tr>
+  <tr>
+
+   <td width="100%" align="center"><font size="-1"><a href="http://www.umich.edu/~smile/about.html">About
+      K-grams</a> | <a href="http://www.umich.edu/~smile/penpals.html">Pen Pal
+      &amp; Swing Kid Info</a> | <a href="http://www.umich.edu/~smile/hallschool.html">Halls
+      &amp; Schools</a> | <a href="http://www.umich.edu/~smile/kidsfair.html">Kids-Fair</a>
+      | <a href="http://www.umich.edu/~smile/bookmark.html">BookMARK</a> | <a href="http://www.umich.edu/~smile/programs.html">Special
+      Programs</a> | <a href="http://www.umich.edu/~smile/spc.html">SmilePC</a>
+      | <a href="http://www.umich.edu/~smile/cgi-data/guestbook.html">Guestbook</a><br>
+      <br>
+      <br>
+      Comments about this webpage can be directed to our webmasters (<a href="mailto:smileweb@umich.edu">smileweb@umich.edu</a>)<br>
+      All other comments or questions can be sent to <a href="../contact.html">smile@umich.edu</a></font></td>
+  </tr>
+</table>
+</body>
+
+</html>

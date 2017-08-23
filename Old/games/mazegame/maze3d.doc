@@ -1,0 +1,45 @@
+                               Maze3D -- Maze Game
+
+                              Version 1.5 (10/10/97)
+
+
+     Generate and solve mazes on Web browsers that support Java.
+
+     The mazes are displayed in three dimensions.
+
+     Press the appropriate button to get a "New" maze, "Solve" a maze, or
+"Clear" the solution from a maze.
+
+     When this applet is run under the application viewer, resizing the window
+results in a new maze (except when the window is minimized and subsequently
+restored).  Larger windows yield mazes with more rooms.
+
+     The vertical scroll bar can be used to change the tilt of the maze.
+
+     Check "Square rooms" or "Hexagonal rooms" to change the style of maze.
+
+     After a maze with square rooms is drawn, you can use the arrow keys to
+solve it.  After a maze with hexagonal rooms is drawn, you can use the Home,
+Up Arrow, PgUp, End, Down Arrow, and PgDn keys (or the corresponding numbers)
+to solve it.  If those keys are laid out on your numeric keypad as follows:
+
+                             Home   Up Arrow   PgUp
+                              7        8        9
+                                       5
+                             End   Down Arrow  PgDn
+                              1        2        3
+
+the direction of movement in the applet will correspond to the direction of 
+the key from "5" on the keypad.
+
+     Each maze has exactly one solution that does not involve backtracking
+(passing through a doorway more than once).
+
+     Java source code is included with this applet.  I, James L. Dean, am the
+author of the source code.  Press "About" for information about distributing
+this applet.
+
+     Send compliments or constructive criticism to my Email address --
+csvcjld@nomvs.lsumc.edu.
+
+     Enjoy!

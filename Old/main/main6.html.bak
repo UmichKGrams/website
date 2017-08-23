@@ -1,0 +1,308 @@
+<html>
+<head>
+<meta name="DESCRIPTION" content="K-grams (short for 'Kids Programs') is an exciting program open for ANYONE at the University of Michigan.">
+<meta name="KEYWORDS" content="pen pals, The University of Michigan, elementary schools, Ann Arbor, Willow Run (Ypsi), Detroit, letters, community service">
+<meta name="AUTHORS" content="Rishi Moudgil">
+<title>K-grams pen pals!</title>
+</head>
+
+<body bgcolor="#FFFFFF" onLoad="startCountdown()">
+
+<script language="JavaScript1.2">
+<!--
+    bName = navigator.appName;
+    bVer = parseInt(navigator.appVersion);
+    ver = "other";
+if ((bName == "Netscape" && !(bVer < 100)) 
+ || (bName == "Microsoft Internet Explorer" && !(bVer < 4))) ver = "good"; 
+if (ver == "good") {
+
+var brOK=false, mie=false;
+if(document.layers || document.all) brOK=true;
+if(document.all) mie=true;
+var ex=0, ey=0;
+var ae, le, re, x0, y0, tid, realx, realy;
+
+function navMove(e) {
+ ex=e.pageX; 
+ ey=e.pageY;
+ moveeye()
+ return routeEvent(e);
+
+ }
+
+function mieMove() {
+ ex=document.body.scrollLeft+event.x;
+ ey=document.body.scrollTop+event.y;
+ moveeye();
+
+ }
+
+function moveeye() {
+ dy=ey-y0-20;
+ dx1=ex-x0-20;
+ dx2=ex-x0-60;
+
+ r=Math.sqrt(dx1*dx1+dy*dy);
+ if(r<20) r=20
+ dx1=dx1*10/r+x0+10;
+ dy1=dy*10/r+y0+10;
+
+ r=Math.sqrt(dx2*dx2+dy*dy);
+ if(r<20) r=20
+ dx2=dx2*10/r+x0+50;
+
+ ae.left=x0;  
+ ae.top=y0;  
+ le.left=dx1;  
+ le.top=dy1;  
+ re.left=dx2;  
+ re.top=dy1;  
+
+ }
+
+
+function setHandlers() {
+ if(!mie){
+  y0=document.eyeballs.top;
+  x0=document.eyeballs.left;
+  ae=document.eyeballs;
+  le=document.lefteye;   
+  re=document.righteye;   
+
+  window.captureEvents(Event.MOUSEMOVE);
+  window.onMouseMove=navMove;
+
+  } else {
+
+  y0=document.all.eyeballs.style.pixelTop;
+  x0=document.all.eyeballs.style.pixelLeft;
+  ae=document.all.eyeballs.style;
+  le=document.all.lefteye.style;
+  re=document.all.righteye.style;
+  window.document.onmousemove=mieMove;
+
+  }
+
+ realx=x0+0.1;
+ realy=y0+0.1;
+ moveall();
+
+ }
+
+function moveall() {
+ rx=realx+40
+ ry=realy+40;
+ rx+=(ex-rx)*0.1;
+ ry+=(ey-ry)*0.1;
+ realx=rx-40;
+ realy=ry-40;
+ x0=Math.round(realx);
+ y0=Math.round(realy);
+ moveeye();
+
+ tid=setTimeout('moveall()',100);
+
+ }
+
+function placeeyes(x,y) {
+ if(brOK) {
+  ex=x+40;
+  ey=y+40;
+  s ='<DIV ID="dummy"    STYLE="position:absolute; top:'+y+'; left:'+x+'; width:10; height:10;">&nbsp;</DIV>';
+  s+='<DIV ID="eyeballs" STYLE="position:absolute; top:'+y+'; left:'+x+'; width:80; height:40;"  ><IMG SRC="smilefollow.gif"  border=0></DIV>';
+  s+='<DIV ID="lefteye"  STYLE="position:absolute; top:'+(y+10)+'; left:'+(x+10)+'; width:20; height:20;"  ><IMG SRC="space.gif"       border=0></DIV>';
+  s+='<DIV ID="righteye" STYLE="position:absolute; top:'+(y+10)+'; left:'+(x+50)+'; width:20; height:20;"  ><IMG SRC="space.gif"       border=0></DIV>';
+  document.writeln(s);
+
+  }
+
+ }
+
+
+function clearEyes() {
+ if(tid) clearTimeout(tid);
+
+ }
+
+placeeyes(200,100);
+window.onload=setHandlers;
+window.onunload=clearEyes;
+
+        }
+
+//-->
+
+</script>
+
+
+<table border="0" cellpadding="7" cellspacing="7">
+    <tr>
+        <td valign="top"><p align="center"><a href="sitemap.html"><img
+        src="main/logocolor.gif" alt="K-grams!" border="0" width="246" height="142"></a><br></p>
+
+        <p align="center"><font color="#0000FF" face="Comic Sans MS" size="5"><a href="volunteer/apply.html">We
+        still need Swing Kids and Group Liaisons</a>!&nbsp;</font><font color="#0000FF" face="Comic Sans MS" size="4">
+        <br>
+        <i> (Apps are rolling... so apply now.)</i></font></p>
+
+         <p align="left">Now is the time where we need you to apply for positions
+        for the upcoming year of K-grams!&nbsp; We are currently looking for
+         Swing Kids to bolster our fine program.&nbsp; If you have an interest
+         in a leadership position without too much time commitment, please
+         apply.&nbsp; There is a rolling deadline, but let us know as soon as
+         possible to join!</p>
+
+        <p align="left">Thank you to everyone who participated in <a href="kidsfair.html">Kids-Fair 2000</a> and made it such a success. Kids-Fair
+        was a very unique event that brings together all our
+         schools, kids, many student groups, and the community for a day of
+         sharing and learning.&nbsp; Not to mention that there will be a lot of
+         fun, prizes, and guest appearances!&nbsp; Soon we will have our Kids-Fair video and highlight pictures on the web, so be on the lookout for
+        that.</p>
+
+        <p align="left">After touring through our site, please sign our <a href="cgi-data/guestbook.html">Guestbook</a>
+        to tell us what you think about our program.&nbsp; We look forward to seeing you around campus and in our schools!</p>
+
+        <p align="left">
+        -Rishi, Lee, Sara, and E<br>
+        (A few of the behind-the-scenes types)</p>
+
+        <center>
+
+        <p align="center"><br>
+
+        <font size="2">K-grams is partnered with </font><a
+        href="http://www.umich.edu/~circlek" target="new"><font size="2">The University of Michigan Circle K</font></a><font
+        size="2"> and </font><a href="http://www.housing.umich.edu" target="new"><font size="2">The University of Michigan Department
+	of Housing</font></a><font size="2">.</font> </p>
+
+         <p align="center">
+        <br>
+
+        <img src="http://wwwcgi.itd.umich.edu/cgi-bin/counter?link=http://www.umich.edu/~smile/index.html">
+        <font size="2">people have been smiling with us since Sep. 28th, 1998.</font> <br>
+        <br>
+
+        <font size="2">This page was last updated on <i>May 25, 2000<br>
+        </i></font> </p>
+
+         <p align="center">
+
+        <font size="2"> <i>
+        <img border="0" src="main/blockm.gif" width="65" height="49"><br>
+         go blue&nbsp;</i></font> 
+
+ </p>
+
+         </center>
+        </td>
+
+        <td valign="top" width="200"><br>
+        <br>
+
+        <a href="main/tshirts.html"><img src="main/buytshirt.gif"
+
+        alt="Buy a t-shirt!" border="0" width="202" height="46"></a><br>
+
+        <a href="main/tshirts.html"><img
+
+        src="main/2000tshirtfront.gif" alt="K-grams!" border="0"
+
+        width="193" height="184"></a><br>
+
+         <br>
+         <a target="as" href="games"><img border="0" src="main/javakgames.gif" width="190" height="46"></a>
+         <p><a href="volunteer/apply.html"><img border="0" src="main/applynextyear.gif" width="192" height="46"></a><br>
+
+        <strong><br>
+        &nbsp;&nbsp;&nbsp; Click </strong><a href="penpals/schedule.html"><strong>here</strong></a><strong>
+
+        for the current<br>
+        &nbsp;&nbsp;&nbsp; 1999-2000 letter schedule</strong><br>
+
+        <br>
+
+         <img src="contact/email.gif" alt="Send us email!" width="152" height="46"> 
+
+         </p>
+
+        <form action="/cgi-bin/htmail/smile@umich.edu"
+
+        method="POST">
+
+            <p align="center"><textarea name="S1" rows="4"
+
+            cols="20"></textarea><br>
+
+            Your e-mail address:<br>
+
+            <input type="text" size="18" name="from"> <br>
+
+            <input type="submit" name="B1"
+
+            value="Send a nice note!"></p>
+
+            <p align="center">&nbsp;</p>
+
+        </form>
+
+        <table border="1">
+
+            <tr>
+
+                <td align="center" bgcolor="#E6E5F2"><form
+
+                action="/cgi-bin/swishgate/~smile/penpals/.index.swish"
+
+                method="POST">
+
+                    <p><font color="#0B007E" size="4"
+
+                    face="Comic Sans MS">Search here for pen
+
+                    pal or buddy info!</font><br>
+
+                    <font color="#0B007E" face="Comic Sans MS">Simply
+
+                    enter your name in the box below:</font> <br>
+
+                    <br>
+
+                    <input type="text" size="20" name="search"><br>
+
+                    <br>
+
+                    <input type="submit" name="Submit Search!"> </p>
+
+                </form>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+        </td>
+
+    </tr>
+
+</table>
+
+<p align="center">
+
+<a href="about.html"><font size="2">[About K-grams]</font></a><font size="2"> | 
+</font><a href="penpals.html"><font size="2">[Stuff for Pen Pals]</font></a><font size="2"> | 
+</font><a href="hallschool.html"><font size="2">[Participating Halls &amp; Schools]</font></a><font size="2"> | </font><a href="kidsfair.html"><font size="2">[Kids-Fair]</font></a><font size="2"> | 
+</font><a href="volunteers.html"><font size="2">[Volunteers]</font></a><font size="2"> | 
+</font><a href="programs.html"><font size="2">[Special Programs]</font></a><font size="2"> <br>
+<br>
+
+Comments about this site can be directed to our webmasters (</font><a href="mailto:smileweb@umich.edu"><font size="2">smileweb@umich.edu</font></a><font size="2">) <br>
+
+All other comments or questions can be sent to </font><a href="contact/inquery.html"><font size="2">smile@umich.edu</font></a>
+
+</p>
+
+</body>
+</html>
+

@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+        <meta name="DESCRIPTION" content="K-grams (short for 'Kids Programs') is an exciting new program sponsored by Circle K, a service and leadership organization, and open for ANYONE at the University of Michigan.">
+        <meta name="KEYWORDS" content="pen pals, Circle K, The University of Michigan, elementary schools, Ann Arbor, Ann Arbor Public Schoos, letters, community service">
+        <meta name="AUTHORS" content="Matthew A. Armfield">
+        <title>Staff Services - Add a project!</title>
+</head>
+
+<body background="../backgrounds/swing.gif">
+
+<div align="center">
+
+<table border="0" cellspacing="7" cellpadding="7">
+<tr>
+	<td valign="top">
+		<a href="../main.html"><img src="../shared/logo.gif" width=174 height=100 border=0 alt="K-grams!"></a>
+	</td>
+	<td valign="top">
+		<div align="center">
+		<font size="+3" color="#0B007E"><i><b>Add an idea...</b></i></font>
+	
+		<p><em>Liasions, do you have an idea for a project?  Please post them here.</em></p>
+		</div>
+	</td>
+</tr>
+<tr>
+<td colspan="2">
+
+<br>
+
+<form action="http://wwwcgi.itd.umich.edu/cgi-bin/guestbook/marmfiel" method="POST">
+
+<input type="hidden" name="successURL" value="/~marmfiel/kgrams/staff/knectorthankyou.html">
+<input type="hidden" name="filename" value="knector.html">
+
+Your Name: <input type="Text" name="realname" size="50">
+
+<br>
+<br>
+
+E-Mail: <input type="Text" name="email" size="50">
+
+<br>
+<br>
+
+What student group are you involved in? <input type="Text" name="Student Group:" size="50">
+
+<br>
+<br>
+
+Please enter your idea below.
+
+<br>
+
+<textarea name="comments" cols="60" rows="6" wrap="virtual"></textarea>
+
+<p><input type="Submit" value="Submit"><img src="../spacer.gif" width=50 height=1 border=0 alt="">
+<input type="Submit" value="Reset"></form>
+
+
+<br>Return to the <a href="../cgi-data/knector.html">K-nector</a>!
+
+<div align="center">
+<br>
+<hr>
+
+<em>GuestBook v1.1</em></div>
+
+
+<div align="center">Report problems with this gateway to <i><a href="http://www.umich.edu/feedback.html">webmaster@umich.edu</a></i>
+Online <a href="http://wwwcgi.itd.umich.edu/cgi-bin/guestbook/HELP">help</a> is available.</div>
+
+</td>
+</tr>
+</table>
+
+<br>
+<br>
+
+<hr width="50%">
+<br>
+
+<div align="center">
+	<font size=-1>
+		<a href="../about.html">[About K-grams]</a> | 
+		<a href="../penpals.html">[Stuff for Pen Pals]</a> | 
+		<a href="../hallschool.html">[Participating Halls & Schools]</a> | 
+		<a href="../kidsfair.html">[Kids-Fair]</a> | 
+		<a href="../volunteer.html">[Volunteers]</a> | 
+		<a href="../programs.html">[Special Programs]</a>
+		<a href="../cgi-data/guestbook.html">[Guestbook]</a>
+
+		
+		<br>
+		<br>
+		
+		<div id="waterMark" style="position:absolute">
+			<a href="../main.html"><img src="../smilealways.gif" width=49 height=48 border=0 alt="=)"></a>
+		</div>
+		
+		Comments about this webpage can be directed to Matt Armfield (<a href="mailto:marmfiel@umich.edu">marmfiel@umich.edu</a>)
+		<br>
+		All other comments or questions can be sent to <a href="../contacts/inquery.html">smile@umich.edu</a></font>
+	
+</div>
+
+<script language="JavaScript1.2"><!--
+// Watermark script by Paul Anderson, CNET Builder.com. All rights reserved.
+markW = 49;       // pixels wide
+markH = 48;       // pixels high
+markX = 100;      // percent right
+markY = 100;      // percent down
+markRefresh = 20; // milliseconds
+
+// set common object reference
+if (!document.all) document.all = document;
+if (!document.all.waterMark.style) document.all.waterMark.style = document.all.waterMark;
+
+wMark = document.all.waterMark.style;
+wMark.width = markW;
+wMark.height = markH;
+navDOM = window.innerHeight; // Nav DOM flag
+
+function setVals() {
+ barW = 0; // scrollbar compensation for PC Nav
+  barH = 0; if (navDOM) {
+  if (document.height > innerHeight) barW = 20;
+  if (document.width > innerWidth) barH = 20;
+    } else {
+  innerWidth = document.body.clientWidth;
+  innerHeight = document.body.clientHeight;
+    }
+ posX = ((innerWidth - markW)-barW) * (markX/100);
+ posY = ((innerHeight - markH)-barH) * (markY/100);
+  }
+
+function wRefresh() {
+ wMark.left = posX + (navDOM?pageXOffset:document.body.scrollLeft);
+ wMark.top = posY + (navDOM?pageYOffset:document.body.scrollTop);
+ }
+
+function markMe() {
+ setVals(); window.onresize=setVals;
+ markID = setInterval ("wRefresh()",markRefresh);
+  }
+
+window.onload=markMe; // safety for Mac IE4.5
+
+//-->
+</script>
+
+</body>
+</html>

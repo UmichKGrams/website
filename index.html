@@ -1,0 +1,115 @@
+<!doctype html> 
+<html ng-app="app"> 
+    <head> 
+        <title>K-grams at the University of Michigan</title> 
+        <link href='http://fonts.googleapis.com/css?family=Gochi+Hand|Open+Sans' rel='stylesheet' type='text/css'> 
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> 
+        <link href="css/bootstrap.css" rel="stylesheet"> 
+        <link href = "style.css" rel = "stylesheet"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+        <script src="angular-route.js"></script> 
+        <script type = "text/javascript" src='script.js'></script> 
+        <script src="js/bootstrap.min.js"></script> 
+    </head> 
+    <body ng-controller = "ctrl"> 
+        <div id = "header" class = "container-fluid jumbotron"> 
+            <center><img src = "pictures/kgrams.jpg"></img></center> 
+            <div id = "navbar" class = "col-md-12"> 
+                <ul class = "nav nav-pills nav-justified"> 
+                    <li><a href = "#home">Home</a></li> 
+                    <li class = "dropdown"> 
+                        <a class = "dropdown-toggle" data-toggle = "dropdown" href= ""> 
+                            K-grams<span class = "caret"></span> 
+                        </a> 
+                        <ul class = "dropdown-menu" role = "menu"> 
+                            <li><a href = "#about">About K-grams</a></li> 
+                            <li><a href = "#news">News</a></li> 
+                            <li class = "dropdown"></li> 
+                        </ul> 
+                    </li> 
+                    <li class = "dropdown"> 
+                        <a class = "dropdown-toggle" data-toggle = "dropdown" href = ""> 
+                            Pen Pal Program<span class = "caret"></span> 
+                        </a> 
+                        <ul class = "dropdown-menu" role = "menu"> 
+                            <li><a href = "#penpal-about">About</a></li> 
+                            <li><a href = "#penpal-signup">Sign Up</a></li>
+                            <li><a href = "#schools">Elementary Schools</a></li> 
+                            <li><a href = "#greek">Greek Organizations</a></li> 
+                        </ul> 
+                    </li> 
+                    <li class = "dropdown"> 
+                        <a class = "dropdown-toggle" data-toggle = "dropdown" href= ""> 
+                            BookMARK<span class = "caret"></span> 
+                        </a> 
+                        <ul class = "dropdown-menu" role = "menu"> 
+                            <li><a href = "#bookmark-about">About</a></li> 
+                            <li><a href = "https://goo.gl/forms/jVrp9dCyWq8kbJfP2">Sign Up</a></li>
+                        </ul> 
+                    </li> 
+                    <li class = "dropdown"> 
+                        <a class = "dropdown-toggle" data-toggle = "dropdown" href= ""> 
+                            Programming Council<span class = "caret"></span> 
+                        </a> 
+                        <ul class = "dropdown-menu" role = "menu"> 
+                            <li><a href = "#directors">Board of Directors</a></li> 
+                            <li><a href = "#hallheads">Hall Heads</a></li> 
+                            <li><a href = "#bookmark-coordinators">BookMARK Coordinators</a></li> 
+                            <li><a href = "#prteam">Public Relations Team</a></li> 
+                            <li><a href = "#finance">Finance Team</a></li> 
+                            <li><a href = "#info-apply">More Information/Apply</a></li> 
+                        </ul> 
+                    </li> 
+                    <li class = "dropdown"> 
+                        <a class = "dropdown-toggle" data-toggle = "dropdown" href= ""> 
+                            Resources<span class = "caret"></span> 
+                        </a> 
+                        <ul class = "dropdown-menu" role = "menu"> 
+                            <li><a href = "#members">Members</a></li> 
+                            <li><a href = "#teachers">Teachers</a></li>
+                            <li><a href = "#calendar">Calendar</a></li> 
+                        </ul> 
+                    </li> 
+                </ul> 
+            </div> 
+        </div> 
+        <div id = "divider" class = "container-fluid jumbotron"></div> 
+        <div id = "wrapper" class = "container-fluid center"> 
+            <div class = "row-fluid"> 
+                <div id = "content" class = "col-md-12" ng-view></div> 
+            </div> 
+        </div> 
+        <div id = "footer" class = "container-fluid jumbotron"> 
+            <div id = "questions" class = "col-md-3"> 
+                <h2>Contact:</h2> 
+                <div class = "col-md-12"> 
+                    <a href = "mailto:kgramsumich@gmail.com"><i class = "fa fa-envelope fa-3x" style = "padding: 7px"></i></a> 
+                    <a href = "http://www.facebook.com/kgramsum" target = "_blank"><i class = "fa fa-facebook-square fa-3x" style = "padding: 7px"></i></a> 
+                    <br>
+                    <a href = "https://twitter.com/KgramsUofM" target = "_blank"><i class = "fa fa-twitter-square fa-3x" style = "padding: 7px"></i></a> 
+                    <a href = "http://instagram.com/kgramsumich/" target = "_blank"><i class = "fa fa-instagram fa-3x" style = "padding: 7px"></i></a> 
+                </div>
+            </div> 
+            <div id = "office" class = "col-md-3"> 
+                <h2>K-grams Office:</h2> 
+                <p>4217 Michigan Union<br> 
+                    Ann Arbor, MI, 48109-1349 
+                </p> 
+            </div> 
+            <div id = "advisors" class = "col-md-3"> 
+                <h2>Advisors:</h2>
+                <p>Steven Bodei </p>
+            </div> 
+            <div id = "oh" class = "col-md-3"> 
+                <h2>Important Links:</h2>
+                <p><a href = "#calendar">Calendar</a><br>
+                <a href = "#penpal-about">Pen Pal Program</a><br>
+                <a href = "#bookmark-about">BookMARK</a><br>
+                </p><br> 
+            </div> 
+	    <div> <p> This site brought to you by Hannah Westra </p>
+	   </div>
+        </div> 
+    </body> 
+</html> 

@@ -1,0 +1,1 @@
+RedirectMatch /~smile/(.*) http://sites.google.com/site/kgramsum/ 

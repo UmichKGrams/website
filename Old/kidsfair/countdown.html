@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>K-grams Kids-Fair!</title>
+
+<SCRIPT>
+<!-- hide script
+//change your event date event here.
+var eventdate = new Date("March 21, 2003 9:00:00 EST");
+
+ function toSt(n)
+ {s=""
+  if(n<10) s+="0"
+  return s+n.toString();
+ }
+ 
+ function countdown()
+ {cl=document.clock;
+  d=new Date();
+  count=Math.floor((eventdate.getTime()-d.getTime())/1000);
+  if(count<=0)
+    {cl.days.value ="----";
+     cl.hours.value="--";
+     cl.mins.value="--";
+     cl.secs.value="--";
+     return;
+    }
+  cl.secs.value=toSt(count%60);
+  count=Math.floor(count/60);
+  cl.mins.value=toSt(count%60);
+  count=Math.floor(count/60);
+  cl.hours.value=toSt(count%24);
+  count=Math.floor(count/24);
+  cl.days.value=count;    
+  
+  setTimeout("countdown()",500);
+ }
+// end script -->
+</SCRIPT>
+</head>
+<body bgcolor="#FFFFFF" vlink="#000080" topmargin="0" onLoad="countdown()">
+<table border="0" cellpadding="7" cellspacing="3">
+  <tr> 
+    <td valign="top"> <p align="justify">&nbsp;</p>
+      <div align="center"> 
+        <center>
+        </center>
+      </div>
+      <div align="center"> 
+        <FORM name="clock">
+          <CENTER>
+            <TABLE BORDER=1 CELLSPACING=0 CELLPADDING=0 width="360" bordercolor="#000000" >
+              <TR> 
+                <TD align=CENTER width="360" colspan="6" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"><a href="kidsfair/media/ipix.html"><img border="0" src="kidsfair/graphics/countdown.gif"></a></TD>
+              </TR>
+              <TR> 
+                <TD align=CENTER width="60" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">&nbsp;</TD>
+                <TD align=CENTER width="60" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"><b>Days</b></TD>
+                <TD align=CENTER width="60" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"><b>Hours</b></TD>
+                <TD align=CENTER width="60" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"><b>Mins</b></TD>
+                <TD align=CENTER width="60" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"><b>Secs</b></TD>
+                <TD align=CENTER width="60" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">&nbsp;</TD>
+              </TR>
+              <TR> 
+                <TD align=CENTER width="60" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">&nbsp;</TD>
+                <TD align=CENTER width="60" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"><INPUT name="days" size=4></TD>
+                <TD align=CENTER width="60" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"><INPUT name="hours" size=2></TD>
+                <TD align=CENTER width="60" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"><INPUT name="mins" size=2></TD>
+                <TD align=CENTER width="60" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"><INPUT name="secs" size=2></TD>
+                <TD align=CENTER width="60" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">&nbsp;</TD>
+              </TR>
+            </TABLE>
+          </CENTER>
+        </FORM>
+      </div></td>
+  </tr>
+</table>
+<center>
+</center>
+<center>
+  <center>
+  </center>
+</center>
+
+
+
+<div align="center"> 
+
+
+
+  <center>
+  </center>
+
+
+
+</div>
+
+
+
+</body>
+
+
+
+</html>

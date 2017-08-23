@@ -1,0 +1,71 @@
+<HTML>
+<HEAD>
+
+<SCRIPT>
+<!-- hide script
+//change your event date event here.
+var eventdate = new Date("March 21, 2003 9:00:00 EST");
+
+ function toSt(n)
+ {s=""
+  if(n<10) s+="0"
+  return s+n.toString();
+ }
+ 
+ function countdown()
+ {cl=document.clock;
+  d=new Date();
+  count=Math.floor((eventdate.getTime()-d.getTime())/1000);
+  if(count<=0)
+    {cl.days.value ="----";
+     cl.hours.value="--";
+     cl.mins.value="--";
+     cl.secs.value="--";
+     return;
+    }
+  cl.secs.value=toSt(count%60);
+  count=Math.floor(count/60);
+  cl.mins.value=toSt(count%60);
+  count=Math.floor(count/60);
+  cl.hours.value=toSt(count%24);
+  count=Math.floor(count/24);
+  cl.days.value=count;    
+  
+  setTimeout("countdown()",500);
+ }
+// end script -->
+</SCRIPT>
+<title></title>
+</HEAD>
+<BODY  onLoad="countdown()">
+
+<center>
+<P>
+<FORM name="clock">
+<CENTER>
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 width="240" >
+<TR>
+<TD align=CENTER colspan="4"><img border="0" src="coutdown.gif" width="178" height="29"></TD>
+</TR>
+
+<TR>
+<TD align=CENTER width="60"><b>Days</b></TD>
+<TD align=CENTER width="60"><b>Hours</b></TD>
+<TD align=CENTER width="60"><b>Mins</b></TD>
+<TD align=CENTER width="60"><b>Secs</b></TD>
+</TR>
+
+<TR>
+<TD align=CENTER width="60"><INPUT name="days" size=4></TD>
+<TD align=CENTER width="60"><INPUT name="hours" size=2></TD>
+<TD align=CENTER width="60"><INPUT name="mins" size=2></TD>
+<TD align=CENTER width="60"><INPUT name="secs" size=2></TD>
+</TR>
+
+</TABLE></CENTER>
+
+</FORM>
+
+</BODY>
+</HTML>
+
